@@ -31,4 +31,18 @@ A responsive weather application built using React, Axios, and the OpenWeather A
 3. Install dependencies:
 
 ```bash
-npm install
+npm install```
+
+
+## Create a .env file:
+VITE_WEATHER_API_KEY=your_api_key_here
+
+## Start the application:
+npm run dev
+
+## Open the localhost URL in your browser.
+
+
+## Author
+
+Bunny
