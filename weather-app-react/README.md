@@ -31,7 +31,7 @@ A responsive weather application built using React, Axios, and the OpenWeather A
 3. Install dependencies:
 
 ```bash
-npm install```
+npm install
 
 
 ## Create a .env file:
