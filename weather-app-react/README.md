@@ -1,43 +1,34 @@
-# Weather App - React
+# Weather App 🌤️
 
-A simple responsive weather application built using:
-
-- React
-- Axios
-- REST API
-- CSS
-- OpenWeather API
-
-## Run the project
-
-```bash
-npm install
-npm run dev
-```
-
-## Add your API key
-
-Open:
-
-`src/App.jsx`
-
-Replace:
-
-```js
-const API_KEY = "YOUR_OPENWEATHER_API_KEY";
-```
-
-with your OpenWeather API key.
+A responsive weather application built using React, Axios, and the OpenWeather API.
 
 ## Features
 
-- Search weather by city
-- Current temperature
-- Feels-like temperature
-- Humidity
+- Search weather by city name
+- Displays current temperature
+- Shows feels-like temperature
+- Humidity information
 - Wind speed
 - Atmospheric pressure
-- Weather description and icon
-- Loading state
-- Error handling
+- Weather condition and icon
+- Error handling for invalid cities and API errors
 - Responsive design
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- Axios
+- HTML5
+- CSS3
+- OpenWeather API
+- Vite
+
+## How to Run
+
+1. Clone the repository
+2. Open the project folder in VS Code
+3. Install dependencies:
+
+```bash
+npm install
