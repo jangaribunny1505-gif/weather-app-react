@@ -35,8 +35,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_WEATHER_API_KEY: $
-          {{ secrets.VITE_WEATHER_API_KEY }}
+          VITE_WEATHER_API_KEY: ${{ secrets.VITE_WEATHER_API_KEY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
